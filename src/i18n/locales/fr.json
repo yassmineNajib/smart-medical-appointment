@@ -1,0 +1,326 @@
+{
+  "brand": {
+    "name": "Maw3idAI",
+    "tagline": "Rendez-vous médicaux coordonnés intelligemment",
+    "footerSummary": "Des rendez-vous médicaux coordonnés pour les patients et les équipes soignantes."
+  },
+  "navigation": {
+    "home": "Accueil",
+    "howItWorks": "Comment ça marche",
+    "services": "Services",
+    "about": "À propos",
+    "describe": "Décrire ma demande",
+    "book": "Prendre rendez-vous",
+    "menu": "Menu patient",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "language": {
+    "label": "Langue"
+  },
+  "hero": {
+    "headline": "Vos rendez-vous médicaux, coordonnés intelligemment.",
+    "copy": "Maw3idAI aide les patients à trouver le bon créneau, confirmer leur rendez-vous et gérer leur présence dans une expérience fluide.",
+    "book": "Prendre rendez-vous",
+    "describe": "Décrire ma demande",
+    "capabilities": [
+      "Correspondance exacte",
+      "Alternatives intelligentes",
+      "Rappels automatiques",
+      "Gestion de présence"
+    ],
+    "previewTitle": "Créneaux de soins disponibles",
+    "previewEyebrow": "Aperçu de réservation",
+    "rows": {
+      "exact": "Correspondance exacte",
+      "recommended": "Recommandé",
+      "confirmed": "Confirmé",
+      "todayMorning": "Ce matin",
+      "closest": "Disponibilité la plus proche",
+      "reminder": "Rappel planifié",
+      "cardiology": "Cardiologie · Dr Mansouri",
+      "radiology": "Service de radiologie",
+      "dermatology": "Dermatologie · confirmé"
+    },
+    "mini": {
+      "assistant": "Assistant IA",
+      "secure": "Confirmation sécurisée",
+      "attendance": "Présence confirmée",
+      "reminder": "Rappel automatique"
+    }
+  },
+  "trust": {
+    "intelligent": "Recherche intelligente",
+    "availability": "Disponibilités en temps réel",
+    "secure": "Réservation sécurisée",
+    "reminders": "Rappels automatiques"
+  },
+  "sections": {
+    "howEyebrow": "Comment ça marche",
+    "howTitle": "Un parcours connecté, de la demande à la présence",
+    "step": "Étape {{number}}",
+    "steps": [
+      "Partagez vos préférences",
+      "Trouvez les créneaux disponibles",
+      "Confirmez votre rendez-vous",
+      "Recevez les rappels et gérez la présence"
+    ],
+    "bookingEyebrow": "Modes de réservation",
+    "bookingTitle": "Deux façons claires de commencer",
+    "bookingCopy": "Utilisez un parcours structuré lorsque les détails sont connus, ou décrivez la demande naturellement.",
+    "guidedTitle": "Réservation guidée",
+    "guidedCopy": "Renseignez la spécialité, la date, la période et choisissez directement un créneau.",
+    "guidedCta": "Utiliser le formulaire",
+    "textTitle": "Demande en langage naturel",
+    "textCopy": "Décrivez le rendez-vous comme vous le feriez auprès d'un agent d'accueil.",
+    "textCta": "Décrire ma demande",
+    "servicesEyebrow": "Services",
+    "servicesTitle": "Spécialités actuellement supportées",
+    "availability": "Voir les disponibilités",
+    "capabilitiesEyebrow": "Capacités intelligentes",
+    "capabilitiesTitle": "Des actions opérationnelles, présentées simplement",
+    "capabilitiesCopy": "Chaque interaction visible correspond à un vrai parcours du projet : recherche, confirmation, rappel, présence et annulation.",
+    "aboutEyebrow": "À propos de Maw3idAI",
+    "aboutTitle": "Un parcours plus calme pour les patients et les équipes médicales",
+    "aboutCopy": "La gestion des rendez-vous hospitaliers est souvent fragmentée entre recherche, confirmation, rappels et annulations. Maw3idAI regroupe ces étapes dans une expérience patient claire.",
+    "problem": "Le problème",
+    "problemText": "Les patients veulent de la clarté rapidement, tandis que les équipes ont besoin d'une utilisation fiable des créneaux.",
+    "solution": "La solution",
+    "solutionText": "Maw3idAI guide la réservation, la confirmation de présence et l'annulation via des actions ciblées.",
+    "impact": "Pourquoi c'est important",
+    "impactText": "La présence confirmée et les créneaux libérés réduisent l'incertitude et améliorent la coordination.",
+    "securityEyebrow": "Sécurité et confiance",
+    "securityTitle": "Les informations servent uniquement à gérer le parcours de rendez-vous.",
+    "securityCopy": "Maw3idAI accompagne la coordination. L'interface ne fournit ni diagnostic, ni conseil de traitement, ni exposition de données sensibles.",
+    "finalTitle": "Prêt à coordonner le prochain rendez-vous ?",
+    "finalCopy": "Commencez par la réservation guidée ou laissez Maw3idAI comprendre la demande naturellement.",
+    "start": "Commencer",
+    "useAssistant": "Utiliser l'assistant"
+  },
+  "features": {
+    "exact": [
+      "Correspondance exacte",
+      "Priorise les créneaux qui correspondent vraiment à la demande."
+    ],
+    "alternative": [
+      "Suggestions alternatives",
+      "Propose des options proches lorsque le choix idéal n'est pas disponible."
+    ],
+    "confirmation": [
+      "Confirmation du rendez-vous",
+      "Déclenche le workflow de confirmation sans ressaisie inutile."
+    ],
+    "reminder": [
+      "Rappel 24 h avant",
+      "Prépare le rappel automatique avant le rendez-vous."
+    ],
+    "attendance": [
+      "Confirmation de présence",
+      "Permet au patient de confirmer sa venue depuis un lien sécurisé."
+    ],
+    "release": [
+      "Libération automatique",
+      "En cas d'annulation, le créneau peut être rendu disponible."
+    ],
+    "staff": [
+      "Notifications au staff",
+      "Aide l'équipe médicale à suivre les changements importants."
+    ]
+  },
+  "specialties": {
+    "general_medicine": [
+      "Médecine générale",
+      "Première consultation et orientation vers le parcours de soins adapté."
+    ],
+    "cardiology": [
+      "Cardiologie",
+      "Consultations spécialisées pour le suivi cardiovasculaire."
+    ],
+    "dermatology": [
+      "Dermatologie",
+      "Rendez-vous pour les problèmes de peau et le suivi dermatologique."
+    ],
+    "radiology": [
+      "Radiologie",
+      "Planification fluide des examens d'imagerie."
+    ]
+  },
+  "security": [
+    "Confidentialité",
+    "Traitement sécurisé",
+    "Aucune recommandation médicale",
+    "Aucune donnée patient exposée"
+  ],
+  "appointment": {
+    "eyebrow": "Parcours de réservation Maw3idAI",
+    "title": "Prendre rendez-vous",
+    "intro": "Renseignez les informations patient, choisissez les préférences, consultez les créneaux et confirmez le rendez-vous.",
+    "steps": [
+      "Informations patient",
+      "Préférences",
+      "Créneaux disponibles",
+      "Confirmation"
+    ],
+    "privacy": "Vos données sont envoyées uniquement aux webhooks Fusion AI configurés. Aucun diagnostic médical ni conseil de traitement n'est fourni par cette interface.",
+    "tabs": {
+      "form": "Formulaire guidé",
+      "text": "Demande en langage naturel"
+    },
+    "loadingText": "Analyse en cours",
+    "loadingSlots": "Recherche des créneaux",
+    "debug": "Panneau de développement",
+    "mobileConfirm": "Confirmer",
+    "additionalInfo": "Informations complémentaires",
+    "sendInfo": "Envoyer les informations"
+  },
+  "form": {
+    "title": "Rechercher un rendez-vous",
+    "name": "Nom complet",
+    "phone": "Téléphone",
+    "email": "Email",
+    "specialty": "Spécialité",
+    "date": "Date souhaitée",
+    "period": "Période souhaitée",
+    "morning": "Matin",
+    "afternoon": "Après-midi",
+    "any": "Sans préférence",
+    "submit": "Rechercher les créneaux",
+    "privacy": "Confidentialité : vos informations servent uniquement à rechercher et confirmer ce rendez-vous.",
+    "placeholders": {
+      "name": "Ex. Sara Amrani",
+      "phone": "Ex. 0612345678",
+      "email": "Ex. sara@example.com"
+    },
+    "errors": {
+      "name": "Le nom complet doit contenir au moins 3 caractères.",
+      "phoneMin": "Le numéro doit contenir au moins 8 caractères.",
+      "phoneMax": "Le numéro doit contenir au maximum 15 caractères.",
+      "phoneInvalid": "Le numéro peut contenir uniquement des chiffres, espaces et le signe +.",
+      "email": "Veuillez saisir un email valide.",
+      "specialty": "Veuillez choisir une spécialité.",
+      "date": "Veuillez choisir une date.",
+      "pastDate": "La date ne peut pas être dans le passé."
+    }
+  },
+  "textForm": {
+    "title": "Décrivez votre demande",
+    "label": "Demande en langage naturel",
+    "placeholder": "Ex. Je souhaite un rendez-vous en cardiologie demain matin.",
+    "helper": "L'assistant identifiera automatiquement la spécialité, la date et la période souhaitée.",
+    "submit": "Analyser ma demande",
+    "error": "La demande doit contenir au moins 15 caractères."
+  },
+  "slots": {
+    "title": "Créneaux disponibles",
+    "choose": "Choisir ce créneau",
+    "exact": "Exact",
+    "alternative": "Alternative",
+    "service": "Service",
+    "doctor": "Médecin",
+    "date": "Date",
+    "time": "Horaire",
+    "calendar": "Calendrier des disponibilités",
+    "legendExact": "Créneau exact",
+    "legendAlternative": "Alternative",
+    "legendSelected": "Sélectionné",
+    "emptyMessage": "Aucun rendez-vous ne correspond aux critères indiqués pour le moment.",
+    "exactBanner": "Créneaux correspondant à vos préférences",
+    "countAvailable": "{{count}} créneau(x) disponible(s).",
+    "alternativeBanner": "Créneaux alternatifs",
+    "alternativeCount": "{{count}} alternative(s) disponible(s)."
+  },
+  "summary": {
+    "title": "Résumé",
+    "empty": "Lancez une recherche pour préparer votre réservation.",
+    "patient": "Patient",
+    "phone": "Téléphone",
+    "email": "Email",
+    "specialty": "Spécialité",
+    "doctor": "Médecin",
+    "date": "Date",
+    "time": "Horaire",
+    "period": "Période",
+    "notProvided": "Non renseigné"
+  },
+  "confirmation": {
+    "title": "Confirmer le rendez-vous",
+    "description": "Vérifiez les informations avant d'envoyer la confirmation.",
+    "back": "Retour",
+    "confirm": "Confirmer le rendez-vous",
+    "successTitle": "Rendez-vous confirmé",
+    "defaultSuccess": "Votre rendez-vous a été confirmé avec succès.",
+    "new": "Prendre un autre rendez-vous",
+    "print": "Imprimer la confirmation",
+    "instructions": "Instructions",
+    "start": "Début",
+    "end": "Fin",
+    "textPatient": "Informations issues de la demande texte",
+    "identifier": "Identifiant",
+    "dateTime": "Date et heure",
+    "reminder": "Rappel",
+    "scheduled": "Planifié",
+    "notScheduled": "Non planifié"
+  },
+  "presence": {
+    "title": "Gestion de votre rendez-vous",
+    "confirmedTitle": "Présence confirmée",
+    "cancelledTitle": "Rendez-vous annulé",
+    "copy": "Merci de confirmer votre présence ou d'annuler si vous ne pouvez pas vous présenter.",
+    "invalidCopy": "Le lien de rappel ne contient pas de référence de rendez-vous valide. Veuillez contacter le service médical.",
+    "confirmedCopy": "Merci. Votre présence a bien été transmise à l'équipe médicale.",
+    "cancelledCopy": "Votre annulation a été transmise. Le créneau peut maintenant être libéré.",
+    "reference": "Référence du rendez-vous",
+    "state": "État actuel",
+    "missing": "Référence manquante",
+    "waiting": "En attente de votre réponse",
+    "incomplete": "Lien incomplet",
+    "invalid": "Impossible d'envoyer une réponse sans identifiant de rendez-vous.",
+    "confirmTitle": "Je confirme ma présence",
+    "confirmDesc": "Votre rendez-vous est conservé et l'équipe médicale est informée.",
+    "confirmButton": "Je confirme ma présence",
+    "cancelTitle": "Annuler le rendez-vous",
+    "cancelDesc": "Une confirmation vous sera demandée avant de libérer le créneau.",
+    "cancelButton": "Annuler le rendez-vous",
+    "modalTitle": "Confirmer l'annulation",
+    "modalDesc": "Cette action va informer le service médical que vous ne pourrez pas vous présenter. Le créneau pourra être libéré.",
+    "modalConfirm": "Confirmer l'annulation",
+    "back": "Retour"
+  },
+  "status": {
+    "available": "Disponible",
+    "reserved": "Réservé",
+    "confirmed": "Confirmé",
+    "cancelled": "Annulé",
+    "exact": "Exact",
+    "alternative": "Alternative"
+  },
+  "toasts": {
+    "searchDone": "Recherche terminée.",
+    "requestAnalyzed": "Demande analysée.",
+    "additionalInfo": "Informations complémentaires requises.",
+    "fixFields": "Veuillez corriger les champs indiqués.",
+    "confirmed": "Rendez-vous confirmé.",
+    "slotUnavailable": "Ce créneau n'est plus disponible. Veuillez en choisir un autre."
+  },
+  "common": {
+    "retry": "Réessayer",
+    "noSlots": "Aucun créneau disponible",
+    "modify": "Modifier la demande"
+  },
+  "footer": {
+    "summary": "Des rendez-vous médicaux coordonnés pour les patients et les équipes soignantes.",
+    "context": "Prototype de démonstration - Hackathon · Powered by Fusion AI",
+    "copyright": "Interface de démonstration."
+  },
+  "backendStatus": {
+    "connecting": "Connexion en cours",
+    "available": "Service disponible",
+    "unavailable": "Service indisponible"
+  },
+  "loadingSteps": {
+    "analysis": "Analyse de la demande",
+    "extraction": "Extraction des informations",
+    "search": "Recherche des créneaux",
+    "results": "Préparation des résultats"
+  }
+}

@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 43 55% 97%;
+  --foreground: 184 29% 9%;
+  --muted: 42 29% 92%;
+  --muted-foreground: 34 7% 47%;
+  --border: 37 18% 81%;
+  --primary: 176 76% 34%;
+  --primary-foreground: 0 0% 100%;
+  --medical-navy: 184 47% 11%;
+  --medical-blue: 179 55% 26%;
+  --medical-teal: 176 76% 34%;
+  --medical-sky: 174 52% 82%;
+  --success: 162 68% 29%;
+  --warning: 35 55% 48%;
+  --danger: 354 43% 44%;
+  --champagne: 41 43% 59%;
+  --ivory: 43 55% 97%;
+  --petrol: 184 53% 15%;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 8% 4%, rgba(74, 196, 184, 0.16), transparent 28rem),
+    radial-gradient(circle at 95% 0%, rgba(197, 167, 106, 0.13), transparent 26rem),
+    linear-gradient(180deg, #fcfaf4 0%, #f6f1e7 46%, #f8f5ed 100%),
+    hsl(var(--background));
+  color: hsl(var(--foreground));
+  text-rendering: geometricPrecision;
+}
+
+::selection {
+  background: hsl(var(--medical-teal) / 0.2);
+  color: hsl(var(--medical-navy));
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+[dir="rtl"] input,
+[dir="rtl"] select,
+[dir="rtl"] textarea {
+  text-align: right;
+}
+
+[dir="rtl"] .fc {
+  direction: rtl;
+}
+
+[dir="rtl"] .fc .fc-toolbar {
+  direction: rtl;
+}
+
+@layer components {
+  .input {
+    @apply w-full rounded-lg border border-border bg-white/95 px-3 py-2.5 text-sm text-foreground shadow-sm transition placeholder:text-muted-foreground hover:border-medical-blue/40 focus:border-medical-blue focus:outline-none focus:ring-2 focus:ring-medical-blue/20 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .premium-surface {
+    @apply rounded-lg border border-white/70 bg-[#FCFAF4]/85 shadow-premium backdrop-blur-xl;
+  }
+
+  .lift-card {
+    @apply transition duration-300 hover:-translate-y-1 hover:border-medical-blue/30 hover:shadow-premium;
+  }
+
+  .eyebrow {
+    @apply text-sm font-bold uppercase tracking-[0.18em] text-medical-teal;
+  }
+
+  .petrol-panel {
+    @apply bg-[linear-gradient(135deg,#101C1D_0%,#123A3C_52%,#185054_100%)] text-[#FCFAF4];
+  }
+
+  .champagne-line {
+    @apply bg-gradient-to-r from-transparent via-[#C5A76A]/70 to-transparent;
+  }
+}
+
+@layer utilities {
+  .animate-fade-up {
+    animation: fade-up 0.65s ease both;
+  }
+
+  .animate-float-soft {
+    animation: float-soft 6s ease-in-out infinite;
+  }
+
+  .animate-slide-glow {
+    animation: slide-glow 4.5s ease-in-out infinite;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes slide-glow {
+  0%,
+  100% {
+    transform: translateX(-12%);
+    opacity: 0.45;
+  }
+  50% {
+    transform: translateX(12%);
+    opacity: 0.85;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.fc {
+  --fc-border-color: hsl(var(--border));
+  --fc-button-bg-color: hsl(var(--primary));
+  --fc-button-border-color: hsl(var(--primary));
+  --fc-button-hover-bg-color: hsl(var(--medical-navy));
+  --fc-button-hover-border-color: hsl(var(--medical-navy));
+  --fc-button-active-bg-color: hsl(var(--medical-teal));
+  --fc-button-active-border-color: hsl(var(--medical-teal));
+  --fc-today-bg-color: hsl(var(--medical-sky));
+  font-size: 0.9rem;
+}
+
+.fc .fc-toolbar {
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.fc .fc-toolbar-title {
+  color: hsl(var(--medical-navy));
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.fc .fc-button {
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
+  padding: 0.45rem 0.7rem;
+}
+
+.fc-event {
+  border: 0;
+  border-radius: 0.45rem;
+  cursor: pointer;
+  padding: 0.1rem 0.2rem;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
+}
+
+@media (max-width: 720px) {
+  .fc .fc-toolbar {
+    flex-direction: column;
+  }
+
+  .fc .fc-toolbar-chunk {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+  }
+}

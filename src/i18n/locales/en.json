@@ -1,0 +1,326 @@
+{
+  "brand": {
+    "name": "Maw3idAI",
+    "tagline": "Medical appointments, intelligently coordinated",
+    "footerSummary": "Medical appointments coordinated for patients and care teams."
+  },
+  "navigation": {
+    "home": "Home",
+    "howItWorks": "How it works",
+    "services": "Services",
+    "about": "About",
+    "describe": "Describe my request",
+    "book": "Book an appointment",
+    "menu": "Patient action menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "hero": {
+    "headline": "Medical appointments, intelligently coordinated.",
+    "copy": "Maw3idAI helps patients find the right slot, confirm their appointment and manage attendance through one seamless experience.",
+    "book": "Book an appointment",
+    "describe": "Describe my request",
+    "capabilities": [
+      "Exact matching",
+      "Smart alternatives",
+      "Automated reminders",
+      "Attendance management"
+    ],
+    "previewTitle": "Available care slots",
+    "previewEyebrow": "Live booking preview",
+    "rows": {
+      "exact": "Exact match",
+      "recommended": "Recommended",
+      "confirmed": "Confirmed",
+      "todayMorning": "Today morning",
+      "closest": "Closest available",
+      "reminder": "Reminder scheduled",
+      "cardiology": "Cardiology · Dr. Mansouri",
+      "radiology": "Radiology department",
+      "dermatology": "Dermatology · confirmed"
+    },
+    "mini": {
+      "assistant": "AI assistant",
+      "secure": "Secure confirmation",
+      "attendance": "Attendance confirmed",
+      "reminder": "Automated reminder"
+    }
+  },
+  "trust": {
+    "intelligent": "Intelligent search",
+    "availability": "Real-time availability",
+    "secure": "Secure booking",
+    "reminders": "Automated reminders"
+  },
+  "sections": {
+    "howEyebrow": "How it works",
+    "howTitle": "A connected path from request to attendance",
+    "step": "Step {{number}}",
+    "steps": [
+      "Share your preferences",
+      "Find available slots",
+      "Confirm your appointment",
+      "Receive reminders and manage attendance"
+    ],
+    "bookingEyebrow": "Booking methods",
+    "bookingTitle": "Two intentional ways to start",
+    "bookingCopy": "Choose a structured path when details are clear, or describe the request naturally and let the existing workflow extract preferences.",
+    "guidedTitle": "Guided booking",
+    "guidedCopy": "Use structured fields for specialty, preferred date, period and direct slot selection.",
+    "guidedCta": "Use guided booking",
+    "textTitle": "Natural-language request",
+    "textCopy": "Describe the appointment like you would to a reception agent and continue to availability.",
+    "textCta": "Describe my request",
+    "servicesEyebrow": "Services",
+    "servicesTitle": "Specialties currently supported",
+    "availability": "See availability",
+    "capabilitiesEyebrow": "Intelligent workflow capabilities",
+    "capabilitiesTitle": "Real operational actions, presented clearly",
+    "capabilitiesCopy": "Every visible interaction maps to a working project flow: search, confirmation, reminder, attendance and cancellation.",
+    "aboutEyebrow": "About Maw3idAI",
+    "aboutTitle": "A calmer appointment journey for patients and medical teams",
+    "aboutCopy": "Hospital appointment management is often fragmented across search, confirmation, reminders and cancellations. Maw3idAI brings those steps into one patient-facing journey while helping teams recover cancelled slots and follow important changes.",
+    "problem": "The problem",
+    "problemText": "Patients need quick clarity, while teams need accurate slot usage and fewer manual follow-ups.",
+    "solution": "The solution",
+    "solutionText": "Maw3idAI guides booking, presence confirmation and cancellation through focused actions connected to the existing workflows.",
+    "impact": "Why it matters",
+    "impactText": "Confirmed attendance and released slots reduce uncertainty, improve coordination and make the schedule more useful.",
+    "securityEyebrow": "Security and trust",
+    "securityTitle": "Information is used only to manage the appointment journey.",
+    "securityCopy": "Maw3idAI supports booking coordination. It does not provide diagnosis, treatment advice or expose sensitive patient information in the interface.",
+    "finalTitle": "Ready to coordinate the next appointment?",
+    "finalCopy": "Start with guided booking or let Maw3idAI understand the patient request naturally.",
+    "start": "Start now",
+    "useAssistant": "Use the assistant"
+  },
+  "features": {
+    "exact": [
+      "Exact slot matching",
+      "Prioritizes slots that truly match the request."
+    ],
+    "alternative": [
+      "Alternative suggestions",
+      "Suggests close options when the ideal choice is unavailable."
+    ],
+    "confirmation": [
+      "Appointment confirmation",
+      "Triggers the confirmation workflow without duplicate entry."
+    ],
+    "reminder": [
+      "24h reminder",
+      "Prepares the automatic reminder before the appointment."
+    ],
+    "attendance": [
+      "Attendance confirmation",
+      "Lets the patient confirm attendance from a secure link."
+    ],
+    "release": [
+      "Automatic slot release",
+      "When cancelled, the slot can become available again."
+    ],
+    "staff": [
+      "Staff notifications",
+      "Helps the medical team follow important changes."
+    ]
+  },
+  "specialties": {
+    "general_medicine": [
+      "General Medicine",
+      "Initial consultation and orientation toward the right care pathway."
+    ],
+    "cardiology": [
+      "Cardiology",
+      "Specialized consultations for cardiovascular follow-up."
+    ],
+    "dermatology": [
+      "Dermatology",
+      "Appointments for skin concerns and dermatological follow-up."
+    ],
+    "radiology": [
+      "Radiology",
+      "Streamlined scheduling for imaging exams."
+    ]
+  },
+  "security": [
+    "Confidential handling",
+    "Secure processing",
+    "No medical recommendations",
+    "No exposed patient data"
+  ],
+  "appointment": {
+    "eyebrow": "Maw3idAI booking flow",
+    "title": "Book an appointment",
+    "intro": "Share patient details, choose preferences, review available slots and confirm the appointment.",
+    "steps": [
+      "Patient details",
+      "Preferences",
+      "Available slots",
+      "Confirmation"
+    ],
+    "privacy": "Your data is sent only to the configured Fusion AI webhooks. This interface does not provide diagnosis or treatment advice.",
+    "tabs": {
+      "form": "Guided form",
+      "text": "Natural-language request"
+    },
+    "loadingText": "Analyzing request",
+    "loadingSlots": "Searching slots",
+    "debug": "Development panel",
+    "mobileConfirm": "Confirm",
+    "additionalInfo": "Additional information",
+    "sendInfo": "Send information"
+  },
+  "form": {
+    "title": "Search for an appointment",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "specialty": "Specialty",
+    "date": "Preferred date",
+    "period": "Preferred period",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "any": "No preference",
+    "submit": "Search available slots",
+    "privacy": "Privacy: your information is used only to search and confirm this appointment.",
+    "placeholders": {
+      "name": "e.g. Sara Amrani",
+      "phone": "e.g. 0612345678",
+      "email": "e.g. sara@example.com"
+    },
+    "errors": {
+      "name": "Full name must contain at least 3 characters.",
+      "phoneMin": "Phone number must contain at least 8 characters.",
+      "phoneMax": "Phone number must contain at most 15 characters.",
+      "phoneInvalid": "Phone number may contain only digits, spaces and +.",
+      "email": "Please enter a valid email.",
+      "specialty": "Please choose a specialty.",
+      "date": "Please choose a date.",
+      "pastDate": "Date cannot be in the past."
+    }
+  },
+  "textForm": {
+    "title": "Describe your request",
+    "label": "Natural-language request",
+    "placeholder": "e.g. I would like a cardiology appointment tomorrow morning.",
+    "helper": "The assistant will identify the specialty, date and preferred period automatically.",
+    "submit": "Analyze my request",
+    "error": "The request must contain at least 15 characters."
+  },
+  "slots": {
+    "title": "Available slots",
+    "choose": "Choose this slot",
+    "exact": "Exact match",
+    "alternative": "Alternative",
+    "service": "Service",
+    "doctor": "Doctor",
+    "date": "Date",
+    "time": "Time",
+    "calendar": "Availability calendar",
+    "legendExact": "Exact slot",
+    "legendAlternative": "Alternative",
+    "legendSelected": "Selected",
+    "emptyMessage": "No appointment currently matches the selected criteria.",
+    "exactBanner": "Slots matching your preferences",
+    "countAvailable": "{{count}} available slot(s).",
+    "alternativeBanner": "Alternative slots",
+    "alternativeCount": "{{count}} available alternative(s)."
+  },
+  "summary": {
+    "title": "Summary",
+    "empty": "Start a search to prepare your booking.",
+    "patient": "Patient",
+    "phone": "Phone",
+    "email": "Email",
+    "specialty": "Specialty",
+    "doctor": "Doctor",
+    "date": "Date",
+    "time": "Time",
+    "period": "Period",
+    "notProvided": "Not provided"
+  },
+  "confirmation": {
+    "title": "Confirm appointment",
+    "description": "Review the information before sending confirmation.",
+    "back": "Back",
+    "confirm": "Confirm appointment",
+    "successTitle": "Appointment confirmed",
+    "defaultSuccess": "Your appointment has been confirmed successfully.",
+    "new": "Book another appointment",
+    "print": "Print confirmation",
+    "instructions": "Instructions",
+    "start": "Start",
+    "end": "End",
+    "textPatient": "Information extracted from the text request",
+    "identifier": "Identifier",
+    "dateTime": "Date and time",
+    "reminder": "Reminder",
+    "scheduled": "Scheduled",
+    "notScheduled": "Not scheduled"
+  },
+  "presence": {
+    "title": "Manage your appointment",
+    "confirmedTitle": "Attendance confirmed",
+    "cancelledTitle": "Appointment cancelled",
+    "copy": "Please confirm your attendance or cancel if you cannot attend.",
+    "invalidCopy": "The reminder link does not contain a valid appointment reference. Please contact the medical service.",
+    "confirmedCopy": "Thank you. Your attendance has been sent to the medical team.",
+    "cancelledCopy": "Your cancellation has been sent. The slot can now be released.",
+    "reference": "Appointment reference",
+    "state": "Current status",
+    "missing": "Missing reference",
+    "waiting": "Waiting for your response",
+    "incomplete": "Incomplete link",
+    "invalid": "Unable to send a response without an appointment identifier.",
+    "confirmTitle": "Confirm my attendance",
+    "confirmDesc": "Your appointment is kept and the medical team is informed.",
+    "confirmButton": "Confirm my attendance",
+    "cancelTitle": "Cancel appointment",
+    "cancelDesc": "You will be asked to confirm before the slot is released.",
+    "cancelButton": "Cancel appointment",
+    "modalTitle": "Confirm cancellation",
+    "modalDesc": "This action will inform the medical service that you cannot attend. The slot may be released.",
+    "modalConfirm": "Confirm cancellation",
+    "back": "Back"
+  },
+  "status": {
+    "available": "Available",
+    "reserved": "Reserved",
+    "confirmed": "Confirmed",
+    "cancelled": "Cancelled",
+    "exact": "Exact match",
+    "alternative": "Alternative"
+  },
+  "toasts": {
+    "searchDone": "Search completed.",
+    "requestAnalyzed": "Request analyzed.",
+    "additionalInfo": "Additional information required.",
+    "fixFields": "Please correct the highlighted fields.",
+    "confirmed": "Appointment confirmed.",
+    "slotUnavailable": "This slot is no longer available. Please choose another one."
+  },
+  "common": {
+    "retry": "Try again",
+    "noSlots": "No available slots",
+    "modify": "Modify request"
+  },
+  "footer": {
+    "summary": "Medical appointments coordinated for patients and care teams.",
+    "context": "Demo prototype - Hackathon · Powered by Fusion AI",
+    "copyright": "Demo interface."
+  },
+  "backendStatus": {
+    "connecting": "Connecting",
+    "available": "Service available",
+    "unavailable": "Service unavailable"
+  },
+  "loadingSteps": {
+    "analysis": "Analyzing request",
+    "extraction": "Extracting information",
+    "search": "Searching slots",
+    "results": "Preparing results"
+  }
+}
